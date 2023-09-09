@@ -1,0 +1,133 @@
+        body
+            {
+                margin: 0px;
+            }
+        section
+        {
+            display:flex ;
+            width:100% ;
+            padding: 0%;
+            height: 1750px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0px;
+            margin: 0px;
+            background-image: url('\https://tse3.mm.bing.net/th?id=OIP.Hz-Naz7e1FK55A6O1AzbPQHaE7&pid=Api&P=0&h=180');
+            background-size: cover;
+        }
+        div
+        {
+            height: 90%;
+            width: 52%;
+            border-color: brown;
+            border-radius: 15px;
+            align-items: center;
+            border: 1px solid white;
+            background-color:rgba(255, 228, 196, 0.453);
+        }
+        input[type=submit]
+        {
+            background-color: blue;
+            color: aliceblue;
+            border-radius: 15px;
+            height: 35px;
+            cursor:pointer;
+            border: none;
+            width: 100px;
+            margin-left: 240px;
+            font-size: 20px;
+        }
+        input[type=submit]:hover
+        {
+            opacity:0.8;
+            font-size: 21px;
+            transition: 0.2s;
+        }
+        input[type=submit]:active
+        {
+            color: blue;
+            background-color: aliceblue;
+        }
+        p
+        {
+            border: 0.5px;
+            margin-left: 25px;
+            font-size: 25px;
+            color: crimson;
+            display: inline-block;
+        }
+        h1,h3
+        {
+            text-align: center;
+        }
+        label,h1,h3
+        {
+            cursor:default;
+            margin-left: 20px;
+            font-size: 25px;
+        }
+        input[type=date]
+        {
+            height: 30px;
+            width: 200px;
+            border-width: 1.7px;
+            border-radius: 8px;
+            border-color: aqua;
+            font-size: 17px;
+            cursor: pointer;
+            color: pointer;
+            color: rgb(166, 102, 226);
+            background-color: rgba(240, 248, 255, 0.784);
+        }
+        select
+        {
+            height: 30px;
+            width: 200px;
+            cursor: pointer;
+            border-width: 1.7px;
+            border-radius: 8px;
+            border-color: aqua;
+            font-size: 17px;
+            color:pointer;
+            color: rgb(166, 102, 226);
+            background-color: rgba(240, 248, 255, 0.784);
+        }
+        .am
+        {
+            margin-left: 5px;
+            font-size: 22.5px;
+            margin-right: 0px;
+
+        }
+        .additional
+        {
+            margin-left: 5px;
+            font-size: 23px;
+        }
+        input[type="text"]
+         {
+            border-radius: 5px;
+            margin-left: 10px;
+            border-width: 1.5px;
+            font-size: 18px;
+            color:pointer;
+            color: rgb(166, 102, 226);
+            cursor: pointer;
+            border-color: rgb(109, 249, 249);
+            background-color:rgba(255, 255, 255, 0.762);
+            height: 30px;
+            width: 400px;
+         }
+         input[type="number"]
+         {
+            border-radius: 5px;
+            margin-left: 10px;
+            border-width: 1.5px;
+            font-size: 18px;
+            cursor: pointer;
+            color: rgb(166, 102, 226);
+            border-color: rgb(109, 249, 249);
+            background-color:rgba(255, 255, 255, 0.762);
+            height: 30px;
+            width: 375px;
+         }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrartion Form</title>
+        <link rel="stylesheet" href="./styleregister.css">
+        <script src="./registerscript.js"></script> 
+    </head>
+    <body>
+        <section>
+            <div>
+        <form action="response.html">
+            <h1>Room Registrartion Form</h1>
+            <h3>--Customer Info--</h3>
+            <label>
+                FirstName: <input type="text" placeholder="  Enter your First Name " required> 
+            </label>
+            <br>
+            <br>
+            <label>
+                LastName: <input type="text" placeholder="  Enter your Last Name "required> 
+            </label>
+            <br>
+            <br>
+            <label>
+                Check-in-Date: 
+                <input type="date" placeholder="  Date" required>
+            </label>
+            <br>
+            <br>
+            <label>
+                Number of Days: 
+                <input type="number" id="dos" placeholder=" number of  Days of stay" required>
+            </label>
+            <br>
+            <br>
+            <label>
+                Number of Persons: 
+                <input type="number" id="nop" placeholder="  Persons" required>
+            </label>
+            <br>
+            <br>
+            <h3>--Room Information--</h3>
+            <label for="">
+                Room Type:
+            </label>
+            <select id="room">
+                <option>select</option>
+                <option value="25000">Delux Room</option>
+                <option value="4000">Suite Room</option>
+            </select>
+            <br>
+            <br>
+            <label for="">
+                Amenities:
+            </label>
+            <select id="amenities">
+                <option>select</option>
+                <option value="1000">AC</option>
+                <option value="300">Locker</option>
+                <option value="1300">Both</option>
+            </select>
+            <br>
+            <br>
+            <h3>--Advance Payment--</h3>
+            <label>
+                Advance Amount:
+                <input type="number" id="advance" placeholder="  Advance amount" onkeyup="main()"
+                required>
+            </label>
+            <br>
+            <br>
+            <h3>--Total Cost Calculation--</h3>
+            <label>
+                Total Room Cost:
+                <input type="text"placeholder="  Room Cost" id="totalroom" name="" readonly>
+            </label>
+            <br>
+            <br>
+            <label class="am" >
+                Total Amenities Cost:
+                <input  type="text" placeholder="  Amenities Cost" id="totalamen" name="" readonly>
+            </label>
+            <br>
+            <br>
+            <p>Note:Upto 2 People--No change in Cost
+                <br>
+                Otherwise per day cost for Extra person--RS.1000.
+           </p>
+           <br>
+            <h3>--Additional Charges--</h3>
+            <label class="additional">Additional Charges:
+            <input type="text" placeholder="  Additional Charges" id="addcost" name="" readonly>
+        </label>
+            <br>
+            <br>
+            <h3>--Total Cost--</h3>
+            <label>
+                Total Cost:
+                <input type="text" placeholder="  Total Cost" id="totalcost" name="" readonly>
+            </label>
+            <br>
+            <br>
+            <h3>--Balance Amount--</h3>
+            <label>
+                Balance:
+                <input type="text" placeholder="  Balance" id="balance" name="" readonly>
+            </label>
+            <br>
+            <br>
+            <br>
+            <label>
+                <input type="submit" value="Register">
+            </label>
+            </form>
+            </div>
+            </section>
+    </body>
+</html>
